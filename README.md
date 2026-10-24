@@ -28,9 +28,9 @@ pip install -r requirements.txt
 ## How to run
 
 ```bash
-python Pong.py edge       # grade 5: hits the ball with the paddle's edge (default)
-python Pong.py mamdani    # grade 3: Mamdani ball follower
-python Pong.py tsk        # grade 4: TSK ball follower
+python Pong.py edge       
+python Pong.py mamdani   
+python Pong.py tsk       
 ```
 
 Add `--plot` to see the membership functions before the game starts, for example `python Pong.py mamdani --plot`.
@@ -54,8 +54,3 @@ In my tests (30,000 frames from 8 different starting positions), the paddle retu
 | `Benchmark.py` | Headless test that counts hits and misses |
 | `requirements.txt` | Python libraries |
 
-## Credits
-
-- Game base code by the course instructor, based on [python101 Pong](https://python101.readthedocs.io/pl/latest/pygame/pong/).
-- Fuzzy logic with [scikit-fuzzy](https://pythonhosted.org/scikit-fuzzy/).
-- Developed with help from an AI assistant.
