@@ -36,15 +36,6 @@ python Pong.py tsk
 Add `--plot` to see the membership functions before the game starts, for example `python Pong.py mamdani --plot`.
 Press `Esc` to close the game.
 
-## Test results
-
-`Benchmark.py` plays the game without a window and counts how many balls the paddle returns.
-
-```bash
-python Benchmark.py edge 30000
-```
-
-In my tests (30,000 frames from 8 different starting positions), the paddle returned about **99.9%** of the balls in all three modes. With the default starting position, no ball got past it.
 
 ## Files
 
